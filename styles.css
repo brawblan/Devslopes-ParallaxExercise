@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: url(/images/80s-gradient-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 20px 0;
+  padding: 0;
+  color: #fff;
+}
+.header {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.body {
+  box-sizing: border-box;
+  height: 200px;
+  padding: 50px;
+  border: 3px ridge yellow;
+  border-radius: 2px;
+}
+.bg-1, .bg-2, .bg-3, .bg-4 {
+  height: 200px;
+}
+.bg-1 {
+  background-attachment: fixed;
+  background-image: url(/images/80s-1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-2 {
+  background-attachment: fixed;
+  background-image: url(/images/80s-2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-3 {
+  background-attachment: fixed;
+  background-image: url(/images/80s-3.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-4 {
+  background-attachment: fixed;
+  background-image: url(/images/80s-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
